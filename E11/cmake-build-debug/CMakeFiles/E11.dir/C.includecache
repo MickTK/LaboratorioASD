@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Mick/Desktop/Laboratorio/E11/functions.c
+functions.h
+C:/Users/Mick/Desktop/Laboratorio/E11/functions.h
+
+C:/Users/Mick/Desktop/Laboratorio/E11/functions.h
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+
+C:/Users/Mick/Desktop/Laboratorio/E11/main.c
+functions.h
+C:/Users/Mick/Desktop/Laboratorio/E11/functions.h
+

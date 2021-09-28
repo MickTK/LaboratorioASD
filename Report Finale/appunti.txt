@@ -1,0 +1,41 @@
+ /* Test */
+    for(i = 0; i < 7; i++){
+        if(i == 0)
+            dimensione_vettore = 500;
+        if(i == 1)
+            dimensione_vettore = 1000;
+        if(i == 2)
+            dimensione_vettore = 2000;
+        if(i == 3)
+            dimensione_vettore = 50000;
+        if(i == 4)
+            dimensione_vettore = 10000;
+        if(i == 5)
+            dimensione_vettore = 20000;
+        if(i == 6)
+            dimensione_vettore = 50000;
+
+        lista = genera_array(dimensione_vettore, INV_ORDINATO);
+
+        start = clock();                                // (1/4) Calcolo del tempo
+        selection_sort(lista, dimensione_vettore);
+        end = clock();                                  // (2/4) Calcolo del tempo
+        t = ((double) (end - start)) / CLOCKS_PER_SEC;  // (3/4) Calcolo del tempo
+        printf("\n%d elementi\nTempo impiegato: %lf secondi\n", dimensione_vettore, t);    // (4/4) Calcolo del tempo
+    }
+    exit(0);
+
+
+
+    if(debug_mod){           // Debug
+            counter_cmp = 0;
+            counter_swap = 0;
+    }
+
+    if(debug_mod){           // Debug
+            printf("\nConfronti: %d", counter_cmp);
+            printf("\nScambi: %d", counter_swap);
+    }
+
+
+

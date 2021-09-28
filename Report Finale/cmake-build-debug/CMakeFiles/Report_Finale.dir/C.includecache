@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Mick/Desktop/Laboratorio/Report Finale/functions.c
+functions.h
+C:/Users/Mick/Desktop/Laboratorio/Report Finale/functions.h
+
+C:/Users/Mick/Desktop/Laboratorio/Report Finale/functions.h
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+stdbool.h
+-
+
